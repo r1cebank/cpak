@@ -1,3 +1,7 @@
+mod apps;
+mod backup;
+mod location;
+
 use clap::{App, Arg};
 
 fn main() {

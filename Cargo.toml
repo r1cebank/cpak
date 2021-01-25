@@ -5,7 +5,15 @@ authors = ["r1cebank <rbnk@elica.io>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["git"]
+git = ["git2"]
 
 [dependencies]
 clap = "2.33.3"
 dialoguer = "0.7.1"
+zip = "0.5.9"
+which = "4.0.2"
+zip-extensions = "0.6.0"
+tempfile = "3.2.0"
+git2 = { version = "0.13.16", optional = true }
