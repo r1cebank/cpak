@@ -1,4 +1,4 @@
-use crate::apps::App;
+use crate::resolver::Resolver;
 use std::path::PathBuf;
 
 mod git;

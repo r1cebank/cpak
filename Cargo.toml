@@ -15,5 +15,8 @@ dialoguer = "0.7.1"
 zip = "0.5.9"
 which = "4.0.2"
 zip-extensions = "0.6.0"
+shellexpand = "2.1.0"
+subprocess = "0.2.6"
+simple-error = "0.2.3"
 tempfile = "3.2.0"
 git2 = { version = "0.13.16", optional = true }
